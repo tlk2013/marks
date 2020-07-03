@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="marks:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="pagemark.war">
+      <element id="artifact" artifact-name="marks:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping  package="com.dwsoft.marks.model" > <!-- 根元素  属性package：包名 -->
+	<class name="MarkInfo" table="t_phone"> <!-- 子元素，name:持久化类，table：数据库表名 -->
+		<id name="mid" column="c_mid"  type="integer">
+			<generator class="native" />
+		</id>
+		<property name="mdn" column="c_mdn" type="string"/>
+		<property name="mark" column="c_mark"   type="string"/>
+		<property name="date" column="c_date" type="string"/>
+		<property name="source" column="c_source" type="string"/>
+	</class>
+</hibernate-mapping>
+

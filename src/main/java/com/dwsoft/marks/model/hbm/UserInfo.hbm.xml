@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping  package="com.dwsoft.marks.model" > <!-- 根元素  属性package：包名 -->
+	<class name="UserInfo" table="t_userinfo"> <!-- 子元素，name:持久化类，table：数据库表名 -->
+		<id name="mdn" column="c_mdn"  type="string"> <!-- 主键 -->
+			<generator class="assigned" />	<!-- 主键生成策略 -->
+		</id>
+		<property name="url" column="c_url" type="string"/>
+		<property name="ctime" column="c_ctime"  update="false" type="string"/>
+		<property name="utime" column="c_utime" type="string"/>
+		<property name="mark" column="c_mark" type="string"/>
+		<property name="status" column="c_status" type="string"/>
+	</class>
+</hibernate-mapping>
+
