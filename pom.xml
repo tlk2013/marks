@@ -89,7 +89,7 @@
     <dependency>		<!-- spring 表达式语言 -->
       <groupId>org.springframework</groupId>
       <artifactId>spring-expression</artifactId>
-      <version>4.3.7.RELEASE</version>
+      <version>5.2.21.RELEASE</version>
     </dependency>
     <dependency>		<!-- 测试框架 -->
       <groupId>org.springframework</groupId>
