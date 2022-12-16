@@ -59,7 +59,7 @@
     <dependency>		<!-- springIOC基础实现 -->
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-      <version>4.3.7.RELEASE</version>
+      <version>5.2.20.RELEASE</version>
     </dependency>
     <dependency>		<!-- spring web相关核心 -->
       <groupId>org.springframework</groupId>
